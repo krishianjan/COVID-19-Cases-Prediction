@@ -1,15 +1,75 @@
-The aim of this project is to develop a deep neural network (DNN) model using PyTorch to predict the percentage of new COVID-19 cases on the 3rd day based on survey results from the past days in various states across the USA. 
-The model uses features such as previous days' percentages of tested positive cases to forecast future trends, which can help in understanding and managing the spread of the virus. 
---> this project is built up on Google colab , with GPU's. I suggest to run on google colab . IF you want to run on any other Environments kindly follow below instructions :
+🧠📈 COVID-19 Case Prediction using Deep Neural Network (DNN)
+Welcome to this project! This work uses Deep Learning with PyTorch to predict future COVID-19 case trends in the USA based on historical testing data.
 
---> Kindly Download datasets and then upload them to your content in colab then run them 
+🎯 Project Goal
+To build a Deep Neural Network (DNN) that:
 
---> I have provided code for the upload also please feel free to use them
+Predicts the percentage of new COVID-19 cases on the 3rd day.
 
---> For downloading datasets link : https://github.com/AnneZhang13/INFO536/blob/main/project1/covid.test.csv
+Uses survey data from past days across various U.S. states.
 
---> Save the code frequently to avoid the reconnecting issues from collab.
+Helps visualize and forecast COVID-19 trends to aid in public health decisions.
 
----> For fimal code and model drag to the bottom and verify from there i have kept a markdown like FINAL CODE , MODEL, VISUALIZATIONS 
+💻 Where to Run This
+✅ Recommended Environment: Google Colab, kaggle notes any where (C.P.U)
 
---> The predictions are being saved as csv and can be downloaded to your folder for better understanding 
+Why? It's free, powerful (has GPU support), and easy to use.
+
+💡 You can run this elsewhere (like Jupyter locally), but make sure to follow setup steps below.
+
+📦 Getting Started on Colab
+Open the notebook on Google Colab
+
+Upload the dataset (required):
+
+Download from: 📥 Dataset Link (covid.test.csv)
+
+Upload to your Colab files section.
+
+🔁 Re-upload if Colab disconnects or restarts.
+
+✅ Use the provided upload code in the notebook — it makes it simple!
+
+💾 Save your work regularly to avoid data loss during auto-disconnects.
+
+🔍 Where to Find the Final Results
+Scroll to the bottom of the notebook and look for:
+
+📌 ### FINAL CODE, MODEL, VISUALIZATIONS
+
+This section contains:
+
+Final prediction code
+
+Trained DNN model
+
+📊 Graphs & charts to visualize trends
+
+📁 Downloadable prediction results as a .csv file
+
+🧑‍💻 What I Did
+Developed a custom Deep Neural Network in PyTorch 🧠
+
+Processed and cleaned COVID survey data 🧼
+
+Trained the model using historical percentages of positive cases 📊
+
+Tuned the model for accuracy and reliable predictions 🔧
+
+Created easy-to-use prediction outputs for non-technical users 💡
+
+📁 Output Example
+Predicted CSV output includes:
+
+State
+
+Predicted % cases on Day 3
+
+Confidence range
+
+Downloadable directly for further use or sharing 📤
+
+📞 Need Help?
+If you’re new to Colab or run into any issues, feel free to raise a GitHub issue or contact the project maintainer (me!).
+
+
